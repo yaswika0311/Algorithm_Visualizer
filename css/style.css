@@ -35,7 +35,7 @@ nav .array-inputs #a_size {
 
 nav .array-inputs #a_generate {
   border: none;
-  background-color: rgb(31, 102, 31);
+  background-color: green;
   border-radius: 5%;
   outline: none;
   color: white;
@@ -79,7 +79,7 @@ nav .header_right .algos button {
   color: white;
   outline: none;
   padding: 5% 0%;
-  
+  border: white;
 }
 
 nav .header_right .algos button:hover {
@@ -104,6 +104,7 @@ nav .header_right .algos .butt_selected {
 }
 
 nav .header_right .algos .butt_selected:hover {
+  background-color: green;
   cursor: pointer;
 }
 
