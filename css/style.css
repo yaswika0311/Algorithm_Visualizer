@@ -9,7 +9,7 @@
 }
 
 nav {
-  background-color: rgb(166, 134, 37);
+  background-color: rgb(78, 76, 76);
   color: rgb(250, 249, 249);
   display: -ms-grid;
   display: grid;
@@ -36,16 +36,16 @@ nav .array-inputs #a_size {
 nav .array-inputs #a_generate {
   border: none;
   background-color: green;
-  border-radius: 5%;
+  border-radius: 0%;
   outline: none;
   color: white;
-  padding: 4% ;
+  padding: 3% ;
   padding-right: 5%;
 }
 
 nav .array-inputs #a_generate:hover {
   cursor: pointer;
-  border-radius: 5px;
+ 
 }
 
 nav .header_right {
@@ -75,17 +75,16 @@ nav .header_right .algos {
 
 nav .header_right .algos button {
   background-color: transparent;
-  border-radius: 5%;
   color: white;
   outline: none;
   padding: 5% 0%;
-  border: none;
+  border: white;
 }
 
 nav .header_right .algos button:hover {
- 
+  color : grey;
   cursor: pointer;
-  border-radius: 5px;
+
 }
 
 nav .header_right .algos .butt_locked {
