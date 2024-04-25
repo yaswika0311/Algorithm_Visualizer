@@ -22,4 +22,4 @@ A web application showcasing the inner workings of sorting algorithms.
      Generation of new data (Randomly generate new data).
      Time and Space complexity of algorithm being visualized.
 
-Take a look at live version: 
+Take a look at live version: https://yaswika0311.github.io/Algorithm_Visualizer/
