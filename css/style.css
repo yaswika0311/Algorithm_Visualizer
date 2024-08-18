@@ -2,14 +2,14 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Moderustic", sans-serif;
   font-size: large;
   font-weight: bold;
-  text-transform: uppercase;
+  
 }
 
 nav {
-  background-color: rgb(78, 76, 76);
+  background-color: rgb(13, 2, 47);
   color: rgb(250, 249, 249);
   display: -ms-grid;
   display: grid;
@@ -23,29 +23,34 @@ nav {
 nav .array-inputs {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 60% 40%;
+  -ms-grid-columns: 80% 20%;
       grid-template-columns: 60% 40%;
   place-content: center;
-  padding: 5% 0%;
+  padding: 10%;
 }
 
 nav .array-inputs #a_size {
-  padding: 5% 0%;
+  padding: 5%;
+
 }
 
-nav .array-inputs #a_generate {
+nav .header_right .algos #a_generate {
   border: none;
-  background-color: green;
+  background-color: rgb(229, 230, 229);
   border-radius: 0%;
   outline: none;
-  color: white;
-  padding: 3% ;
+  color: black;
+  margin-top: 10px;
+  padding: 5%;
   padding-right: 5%;
+  font-size: small;
+  font-family: "Moderustic", sans-serif;
+  font-weight: bold;
 }
 
-nav .array-inputs #a_generate:hover {
+nav .header_right .algos #a_generate:hover {
   cursor: pointer;
- 
+  background-color: grey;
 }
 
 nav .header_right {
@@ -60,15 +65,15 @@ nav .header_right {
 
 nav .header_right .nav-heading {
   display: inline-block;
-  font-size: xx-large;
+  font-size: x-large;
   padding: 3% 0%;
 }
 
 nav .header_right .algos {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (16.66667%)[6];
-      grid-template-columns: repeat(6, 16.66667%);
+  -ms-grid-columns: (16.66667%)[7];
+      grid-template-columns: repeat(7, 16.66667%);
   place-content: center;
   padding: 2% 0%;
 }
@@ -98,12 +103,11 @@ nav .header_right .algos .butt_locked:hover {
 }
 
 nav .header_right .algos .butt_selected {
-  background-color: green;
-  color: white;
+  
+  color: green;
 }
 
 nav .header_right .algos .butt_selected:hover {
-  background-color: green;
   cursor: pointer;
 }
 
@@ -133,15 +137,19 @@ section .Complexity_Containers .Pair_Definitions p {
 
 section .Complexity_Containers .Pair_Definitions p.Sub_Heading {
   font-size: medium;
-  text-transform: none;
+  
 }
 
 section #Info_Cont1 {
-  padding: 20% 10%;
+  padding: 10% 20%;
 }
 
-section #Info_Cont1 h3 {
-  text-decoration: underline;
+section #Info_Cont1 button {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(13, 2, 47);
+  color: white;
+  padding: 5%;
+ 
 }
 
 section #array_container {
@@ -153,11 +161,14 @@ section #array_container {
 }
 
 section #Info_Cont2 {
-  padding: 20% 10%;
+  padding: 10% 20%;
 }
 
-section #Info_Cont2 h3 {
-  text-decoration: underline;
+section #Info_Cont2 button {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(13, 2, 47);
+  color: white;
+  padding: 5%;
 }
 
 .hide {
